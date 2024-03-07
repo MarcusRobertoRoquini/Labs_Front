@@ -1,6 +1,9 @@
 body {
  color: #333333;
- font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;  
+ font-family: "Namdhinggo", "Namdhinggo Grande";
+ font-size: 15px;
+ font-weight: 400;
+ font-style: normal;  
 }
 h1 {
     background-image: url(../img/sobre-background.jpg);
@@ -9,8 +12,8 @@ h2{
     border-bottom: 2px groove #333333;
 }
 figure{
-    background-color: #F2EDED;
-    border: 1px solid #ccc;
+    background-color: rgb(242, 237, 237);
+    border: 1px solid rgb(204, 204, 204);
     text-align: center;
 }
 figcaption{
