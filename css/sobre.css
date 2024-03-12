@@ -1,5 +1,10 @@
+:root{
+    --cor-base: #333333;
+    --cor-fundo-img: #f2eded; 
+    --cor-borda-img: #ccc; 
+}
 body {
- color: #333333;
+ color: var(--cor-base);
  font-family: "Namdhinggo", "Namdhinggo Grande";
  font-size: 15px;
  font-weight: 400;
@@ -9,11 +14,11 @@ h1 {
     background-image: url(../img/sobre-background.jpg);
 }
 h2{
-    border-bottom: 2px groove #333333;
+    border-bottom: 2px groove var(--cor-base);
 }
 figure{
-    background-color: rgb(242, 237, 237);
-    border: 1px solid rgb(204, 204, 204);
+    background-color: var(--cor-fundo-img);
+    border: 1px solid var(--cor-borda-img);
     text-align: center;
 }
 figcaption{
