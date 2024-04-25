@@ -1,7 +1,7 @@
-.sacola{
+.sacola {
     background: url(/img/sacola.png) no-repeat top right;
-    
-    
+
+
     font-size: 15px;
     padding-right: 30px;
     padding-top: 10px;
@@ -11,9 +11,9 @@
 
 }
 
-.menu-opcoes ul{
+.menu-opcoes ul {
     font-size: 15px;
-    
+
 
 }
 
@@ -23,22 +23,25 @@
 
 }
 
-.menu-opcoes ul li{
+.menu-opcoes ul li {
     display: inline-block;
     margin-left: 20px;
 }
+
 body {
     color: #333;
     font-family: "Namdhinggo", sans-serif;
 }
-.container{
+
+.container {
     margin: 0 auto;
     width: 90%;
 }
 
-header  {
+header {
     position: relative;
 }
+
 .menu-opcoes {
     position: absolute;
     right: 0;
@@ -46,14 +49,15 @@ header  {
 
 }
 
-.sacola{
+.sacola {
     position: absolute;
     top: 0px;
     right: 0px;
 
 }
 
-.busca, .menu-departamentos{
+.busca,
+.menu-departamentos {
     background-color: #dcdcdc;
     font-weight: bold;
     text-transform: uppercase;
@@ -61,13 +65,13 @@ header  {
     width: 230px;
     float: left;
     clear: left;
-    
+
 }
 
 .menu-departamentos {
     margin-top: 10px;
     padding-bottom: 10px;
-    
+
 }
 
 
@@ -88,14 +92,61 @@ header  {
     text-decoration: none;
 }
 
-.busca input{
+.busca input {
     vertical-align: middle;
 }
 
-.busca input[type=search]{
+.busca input[type=search] {
     width: 170px;
 }
 
 .destaque {
     margin-top: 10px;
+}
+
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+
+.novidades {
+    float: left;
+}
+
+.mais-vendidos {
+    float: right;
+}
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.painel li{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.novidades {
+    background-color: #f5dcdc;
+
+}
+
+.mais-vendidos {
+    background-color: #dcdcf5;
 }
