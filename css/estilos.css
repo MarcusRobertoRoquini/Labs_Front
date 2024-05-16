@@ -113,6 +113,8 @@ header {
     margin: 10px 0;
     padding: 10px;
     width: 445px;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #999;
 }
 
 .novidades {
@@ -128,6 +130,8 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: 3px 3px 3px;
+    opacity: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -149,11 +153,13 @@ header {
 
 .novidades {
     background-color: var(--cor-painel-novidades);
+    background: linear-gradient(#f5dcdc , #bebef4);
 
 }
 
 .mais-vendidos {
     background-color: var(--cor-painel-maisvendidos);
+    background: linear-gradient(#dcdcf5 , #f4bebe);
 }
 
 footer{
@@ -218,3 +224,6 @@ footer{
 .menu-departamentos li li a:before {
     content: '- ';
 }
+
+
+
