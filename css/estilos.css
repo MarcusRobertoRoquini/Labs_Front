@@ -141,7 +141,7 @@ header {
     width: 130px;
     margin: 2px;
     padding-bottom: 10px;
-    transition: 0.7 ease-out;
+    transition: 0.7s ease-out;
 }
 
 .painel a {
@@ -162,6 +162,8 @@ header {
     background-color: var(--cor-painel-maisvendidos);
     background: linear-gradient(#dcdcf5 , #f4bebe);
 }
+
+
 
 footer{
     background-image: url(../img/fundo-rodape.png);
@@ -192,7 +194,7 @@ footer{
  
 .social li{
     float: left;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 
